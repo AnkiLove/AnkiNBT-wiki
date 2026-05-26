@@ -83,7 +83,6 @@ plugins:
                 - 更新记录 1.1.0: changelog-1.1.0.md
             - 开发:
                 - 编译说明: building.md
-                - Modrinth 介绍: modrinth.md
         - locale: en
           name: English
           build: true
@@ -108,7 +107,6 @@ plugins:
                 - Changelog 1.1.0: changelog-1.1.0.md
             - Development:
                 - Build Notes: building.md
-                - Modrinth Copy: modrinth.md
 
 markdown_extensions:
   - admonition

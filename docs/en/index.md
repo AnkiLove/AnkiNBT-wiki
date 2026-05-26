@@ -61,7 +61,6 @@ If no held or hovered item is found, AnkiNBT shows a message instead of opening 
 | Check supported versions | [Compatibility Matrix](compat-matrix.md) |
 | Check shortcuts | [Shortcuts](keyboard-shortcuts.md) |
 | Read what changed in 1.2.4 | [Changelog 1.2.4](changelog-1.2.4.md) |
-| Prepare a Modrinth description | [Modrinth Copy](modrinth.md) |
 
 ## Configuration
 

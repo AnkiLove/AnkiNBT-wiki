@@ -61,7 +61,6 @@ Fabric 版本需要同时安装 Fabric API。下载时优先看文件名里的 `
 | 查版本支持 | [兼容矩阵](compat-matrix.md) |
 | 查快捷键 | [快捷键](keyboard-shortcuts.md) |
 | 看 1.2.4 改了什么 | [更新记录 1.2.4](changelog-1.2.4.md) |
-| 给 Modrinth 写介绍 | [Modrinth 介绍](modrinth.md) |
 
 ## 配置文件
 
