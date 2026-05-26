@@ -1,4 +1,4 @@
-# AnkiNBT 1.2.6 Changelog
+# AnkiNBT 1.2.4 Changelog
 
 ## Fixes
 

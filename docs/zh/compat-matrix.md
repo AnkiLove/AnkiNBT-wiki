@@ -18,7 +18,7 @@
 
 | 加载器 | 文件名示例 |
 |---|---|
-| Fabric | `AnkiNBT-Fabric-mc26.1.2-1.2.6.jar` |
-| NeoForge | `AnkiNBT-NeoForge-mc26.1.2-1.2.6.jar` |
+| Fabric | `AnkiNBT-Fabric-mc26.1.2-1.2.4.jar` |
+| NeoForge | `AnkiNBT-NeoForge-mc26.1.2-1.2.4.jar` |
 
 下载时请优先看 `mc` 后面的 Minecraft 版本，再看加载器名称。

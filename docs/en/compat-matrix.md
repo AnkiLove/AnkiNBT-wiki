@@ -18,7 +18,7 @@
 
 | Loader | Example file |
 |---|---|
-| Fabric | `AnkiNBT-Fabric-mc26.1.2-1.2.6.jar` |
-| NeoForge | `AnkiNBT-NeoForge-mc26.1.2-1.2.6.jar` |
+| Fabric | `AnkiNBT-Fabric-mc26.1.2-1.2.4.jar` |
+| NeoForge | `AnkiNBT-NeoForge-mc26.1.2-1.2.4.jar` |
 
 When downloading, match the Minecraft version after `mc` first, then match the loader name.

@@ -78,7 +78,7 @@ plugins:
                 - 高级模式: advanced-mode.md
             - 兼容与发布:
                 - 兼容矩阵: compat-matrix.md
-                - 更新记录 1.2.6: changelog-1.2.6.md
+                - 更新记录 1.2.4: changelog-1.2.4.md
                 - 更新记录 1.2.0: changelog-1.2.0.md
                 - 更新记录 1.1.0: changelog-1.1.0.md
             - 开发:
@@ -103,7 +103,7 @@ plugins:
                 - Advanced Mode: advanced-mode.md
             - Compatibility & Releases:
                 - Compatibility Matrix: compat-matrix.md
-                - Changelog 1.2.6: changelog-1.2.6.md
+                - Changelog 1.2.4: changelog-1.2.4.md
                 - Changelog 1.2.0: changelog-1.2.0.md
                 - Changelog 1.1.0: changelog-1.1.0.md
             - Development:
@@ -137,7 +137,7 @@ nav:
       - 高级模式: advanced-mode.md
   - 兼容与发布:
       - 兼容矩阵: compat-matrix.md
-      - 更新记录 1.2.6: changelog-1.2.6.md
+      - 更新记录 1.2.4: changelog-1.2.4.md
       - 更新记录 1.2.0: changelog-1.2.0.md
       - 更新记录 1.1.0: changelog-1.1.0.md
   - 开发:
