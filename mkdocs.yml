@@ -9,6 +9,8 @@ site_dir: site
 not_in_nav: |
   SUMMARY.md
   zh/SUMMARY.md
+  zh/getting-started.md
+  en/getting-started.md
 
 theme:
   name: material
@@ -67,10 +69,9 @@ plugins:
           site_name: AnkiNBT 文档
           site_description: AnkiNBT Minecraft NBT 编辑器文档
           nav:
-            - 首页: index.md
             - 快速开始:
+                - 快速开始: index.md
                 - 安装指南: installation-guide.md
-                - 快速上手: getting-started.md
                 - 快捷键: keyboard-shortcuts.md
                 - 常见问题: faq.md
             - 编辑器指南:
@@ -92,10 +93,9 @@ plugins:
           theme:
             language: en
           nav:
-            - Home: index.md
             - Get Started:
+                - Quick Start: index.md
                 - Installation: installation-guide.md
-                - First Use: getting-started.md
                 - Shortcuts: keyboard-shortcuts.md
                 - FAQ: faq.md
             - Editor Guide:
@@ -126,10 +126,9 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 nav:
-  - 首页: index.md
   - 快速开始:
+      - 快速开始: index.md
       - 安装指南: installation-guide.md
-      - 快速上手: getting-started.md
       - 快捷键: keyboard-shortcuts.md
       - 常见问题: faq.md
   - 编辑器指南:

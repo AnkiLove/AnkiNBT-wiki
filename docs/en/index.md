@@ -1,70 +1,56 @@
-<section class="anbt-home">
-  <div class="anbt-hero">
-    <div class="anbt-hero-copy">
-      <p class="anbt-kicker">Minecraft NBT Editor</p>
-      <h1>AnkiNBT Docs</h1>
-      <p class="anbt-lead">
-        Documentation for the client-side NBT editor used by creative players, map makers and mod debugging. Check your version first, then move into install, editing and release notes.
-      </p>
-      <div class="anbt-actions">
-        <a class="md-button md-button--primary" href="installation-guide/">Install</a>
-        <a class="md-button" href="getting-started/">Start Editing</a>
-        <a class="md-button" href="compat-matrix/">Version Matrix</a>
-      </div>
-    </div>
-    <div class="anbt-quick-panel" aria-label="AnkiNBT quick paths">
-      <div class="anbt-panel-head">
-        <img src="../assets/blue-logo.png" alt="AnkiNBT">
-        <span>Docs map</span>
-      </div>
-      <a href="installation-guide/"><span>01</span><strong>Install & versions</strong><em>Choose the right jar</em></a>
-      <a href="simple-mode/"><span>02</span><strong>Simple Mode</strong><em>Items, enchantments, potions</em></a>
-      <a href="advanced-mode/"><span>03</span><strong>Advanced Mode</strong><em>NBT node editing</em></a>
-    </div>
-  </div>
+# Quick Start
 
-  <div class="anbt-version-rail">
-    <p><strong>Fabric</strong><span>1.21 through 1.21.11, 26.1 through 26.1.2</span></p>
-    <p><strong>NeoForge</strong><span>1.21 through 1.21.11, 26.1 through 26.1.2</span></p>
-    <p><strong>Java</strong><span>21 for 1.21 builds, 25 for 26.1 builds</span></p>
-  </div>
+Pick the jar that matches your loader and Minecraft version, then place it in your `mods` folder. In game, hold an item or hover one in your inventory, then press `N` to open AnkiNBT.
 
-  <section class="anbt-paths" aria-label="Documentation paths">
-    <article>
-      <p class="anbt-step">01</p>
-      <h2>Install The Right Build</h2>
-      <p>Pick a Fabric or NeoForge jar for your Minecraft version, then check Java and Fabric API requirements.</p>
-      <a href="installation-guide/">Open installation guide</a>
-    </article>
-    <article>
-      <p class="anbt-step">02</p>
-      <h2>Start Editing</h2>
-      <p>Use Simple Mode for names, lore, enchantments, attributes and potions. Use Advanced Mode for exact NBT nodes.</p>
-      <a href="simple-mode/">Open editor guide</a>
-    </article>
-    <article>
-      <p class="anbt-step">03</p>
-      <h2>Check Releases</h2>
-      <p>Use the compatibility matrix and changelog to confirm support. Build notes are there for maintainers.</p>
-      <a href="compat-matrix/">Check compatibility</a>
-    </article>
-  </section>
+## Choose A Build
 
-  <section class="anbt-map">
-    <div>
-      <p class="anbt-kicker">Feature Map</p>
-      <h2>Find the right page</h2>
-    </div>
-    <table>
-      <thead>
-        <tr><th>Task</th><th>Page</th><th>Notes</th></tr>
-      </thead>
-      <tbody>
-        <tr><td>Edit name, count or durability</td><td><a href="simple-mode/">Simple Mode</a></td><td>Click a field and edit directly</td></tr>
-        <tr><td>Manage enchantments and attributes</td><td><a href="simple-mode/">Simple Mode</a></td><td>Search, add, edit and remove entries</td></tr>
-        <tr><td>Inspect or change NBT nodes</td><td><a href="advanced-mode/">Advanced Mode</a></td><td>Filter by key, value or tag type</td></tr>
-        <tr><td>Confirm version support</td><td><a href="compat-matrix/">Compatibility Matrix</a></td><td>Loader, Minecraft and Java mapping</td></tr>
-      </tbody>
-    </table>
-  </section>
-</section>
+| Loader | Minecraft | Java |
+|---|---|---|
+| Fabric | 1.21 through 1.21.11, 26.1 through 26.1.2 | Java 21 for 1.21 builds, Java 25 for 26.1 builds |
+| NeoForge | 1.21 through 1.21.11, 26.1 through 26.1.2 | Java 21 for 1.21 builds, Java 25 for 26.1 builds |
+
+Fabric builds also require Fabric API.
+
+[Installation](installation-guide.md){ .md-button .md-button--primary }
+[Compatibility Matrix](compat-matrix.md){ .md-button }
+
+## Open The Editor
+
+### Main Hand Item
+
+1. Hold an item in your main hand.
+2. Press `N`.
+3. The editor opens for that item.
+
+### Inventory Hover
+
+1. Open your inventory or a container.
+2. Hover the item you want to edit.
+3. Press `N`.
+4. The editor opens for the hovered item.
+
+If there is no held or hovered item, AnkiNBT shows a message that no editable item was found.
+
+## Editing Modes
+
+| Mode | Best For | Description |
+|---|---|---|
+| Simple Mode | Common edits | Visual editing for names, lore, enchantments, attributes, appearance and potion effects. |
+| Advanced Mode | Precise edits | Inspect, search and edit NBT nodes directly. |
+
+[Simple Mode](simple-mode.md){ .md-button }
+[Advanced Mode](advanced-mode.md){ .md-button }
+
+## Save And Close
+
+- Press `Ctrl+S` to save changes to the item.
+- Saving is only available in Creative Mode.
+- Press `Esc` to close the editor.
+- Unsaved changes trigger a confirmation prompt.
+
+## Configuration
+
+The config file is stored at `.minecraft/config/ankinbt.json`. Common options include the open key, default mode, UI opacity, NBT export directory and close confirmation.
+
+[Shortcuts](keyboard-shortcuts.md){ .md-button }
+[FAQ](faq.md){ .md-button }
