@@ -13,7 +13,7 @@
 
 1. Download and install [NeoForge](https://neoforged.net/) for your Minecraft version.
 2. Download the **AnkiNBT NeoForge** JAR from [Modrinth](https://modrinth.com/mod/ankinbt) or [GitHub Releases](https://github.com/AnkiLove/AnkiNBT/releases).
-   - Make sure to pick the correct JAR for your Minecraft version (e.g., `AnkiNBT-neoforge-1.21.1-x.x.x.jar`).
+   - Make sure to pick the correct JAR for your Minecraft version (e.g., `AnkiNBT-NeoForge-mc1.21.1-1.2.4.jar`).
 3. Place the JAR file into your `.minecraft/mods/` folder.
 4. Launch Minecraft with the NeoForge profile.
 
@@ -24,7 +24,7 @@
 1. Download and install [Fabric Loader](https://fabricmc.net/) for your Minecraft version.
 2. Download and install [Fabric API](https://modrinth.com/mod/fabric-api) — this is **required** for AnkiNBT on Fabric.
 3. Download the **AnkiNBT Fabric** JAR from [Modrinth](https://modrinth.com/mod/ankinbt) or [GitHub Releases](https://github.com/AnkiLove/AnkiNBT/releases).
-   - Make sure to pick the correct JAR for your Minecraft version (e.g., `AnkiNBT-fabric-1.21.1-x.x.x.jar`).
+   - Make sure to pick the correct JAR for your Minecraft version (e.g., `AnkiNBT-Fabric-mc1.21.1-1.2.4.jar`).
 4. Place both the Fabric API JAR and the AnkiNBT JAR into your `.minecraft/mods/` folder.
 5. Launch Minecraft with the Fabric profile.
 

@@ -13,7 +13,7 @@
 
 1. 下载并安装对应 Minecraft 版本的 [NeoForge](https://neoforged.net/)。
 2. 从 [Modrinth](https://modrinth.com/mod/ankinbt) 或 [GitHub Releases](https://github.com/AnkiLove/AnkiNBT/releases) 下载 **AnkiNBT NeoForge** 版本的 JAR 文件。
-   - 请确保选择与你的 Minecraft 版本匹配的 JAR（例如 `AnkiNBT-neoforge-1.21.1-x.x.x.jar`）。
+   - 请确保选择与你的 Minecraft 版本匹配的 JAR（例如 `AnkiNBT-NeoForge-mc1.21.1-1.2.4.jar`）。
 3. 将 JAR 文件放入 `.minecraft/mods/` 目录。
 4. 使用 NeoForge 配置启动 Minecraft。
 
@@ -24,7 +24,7 @@
 1. 下载并安装对应 Minecraft 版本的 [Fabric Loader](https://fabricmc.net/)。
 2. 下载并安装 [Fabric API](https://modrinth.com/mod/fabric-api) — Fabric 版本**必须**安装此前置。
 3. 从 [Modrinth](https://modrinth.com/mod/ankinbt) 或 [GitHub Releases](https://github.com/AnkiLove/AnkiNBT/releases) 下载 **AnkiNBT Fabric** 版本的 JAR 文件。
-   - 请确保选择与你的 Minecraft 版本匹配的 JAR（例如 `AnkiNBT-fabric-1.21.1-x.x.x.jar`）。
+   - 请确保选择与你的 Minecraft 版本匹配的 JAR（例如 `AnkiNBT-Fabric-mc1.21.1-1.2.4.jar`）。
 4. 将 Fabric API 和 AnkiNBT 的 JAR 文件一起放入 `.minecraft/mods/` 目录。
 5. 使用 Fabric 配置启动 Minecraft。
 

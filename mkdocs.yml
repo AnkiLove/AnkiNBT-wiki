@@ -1,9 +1,8 @@
 site_name: AnkiNBT 文档
 site_description: AnkiNBT Minecraft NBT 编辑器文档
 site_url: https://ankilove.github.io/AnkiNBT-wiki/
-repo_url: https://github.com/AnkiLove/AnkiNBT-wiki
-repo_name: AnkiLove/AnkiNBT-wiki
-edit_uri: edit/main/docs/
+repo_url: https://github.com/AnkiLove/AnkiNBT
+repo_name: AnkiLove/AnkiNBT
 docs_dir: docs
 site_dir: site
 not_in_nav: |
@@ -28,7 +27,6 @@ theme:
     - search.highlight
     - search.suggest
     - search.share
-    - content.action.edit
     - content.code.copy
   palette:
     - scheme: slate
@@ -75,6 +73,7 @@ plugins:
                 - 快捷键: keyboard-shortcuts.md
                 - 常见问题: faq.md
             - 编辑器指南:
+                - 功能总览: feature-overview.md
                 - 简易模式: simple-mode.md
                 - 高级模式: advanced-mode.md
             - 兼容与发布:
@@ -99,6 +98,7 @@ plugins:
                 - Shortcuts: keyboard-shortcuts.md
                 - FAQ: faq.md
             - Editor Guide:
+                - Feature Overview: feature-overview.md
                 - Simple Mode: simple-mode.md
                 - Advanced Mode: advanced-mode.md
             - Compatibility & Releases:
@@ -132,6 +132,7 @@ nav:
       - 快捷键: keyboard-shortcuts.md
       - 常见问题: faq.md
   - 编辑器指南:
+      - 功能总览: feature-overview.md
       - 简易模式: simple-mode.md
       - 高级模式: advanced-mode.md
   - 兼容与发布:

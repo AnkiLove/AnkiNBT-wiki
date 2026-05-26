@@ -8,6 +8,8 @@ These work anywhere in the game:
 |----------|--------|
 | `N` | Open editor for held item (configurable in Controls > AnkiNBT) |
 | `N` (in inventory) | Open editor for hovered item |
+| Entity / villager edit key | Open entity or villager editor while looking at a target or holding a villager spawn egg. Configurable in AnkiNBT settings |
+| Config menu key | Open the AnkiNBT config menu. Configurable in AnkiNBT settings |
 
 ## Editor Shortcuts (Both Modes)
 
@@ -15,6 +17,10 @@ These work anywhere in the game:
 |----------|--------|
 | `Ctrl+S` | Save changes to item (Creative Mode only) |
 | `Esc` | Close editor (shows confirmation if unsaved changes exist) |
+| `Ctrl+A` | Select all text inside text editors |
+| Arrow keys | Move the cursor inside text editors |
+| `Shift` + arrow keys | Select text inside text editors |
+| Mouse drag | Select text in the multi-line editor |
 
 ## Advanced Mode Shortcuts
 

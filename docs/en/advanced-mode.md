@@ -61,6 +61,18 @@ Each tag type is **color-coded** for easy identification:
 4. Press **Enter** or click **Confirm** to apply the change.
 5. Press **Esc** to cancel editing.
 
+### Text Selection
+
+String and text value editors support basic text-editor behavior:
+
+- `Ctrl+A` selects all text.
+- Arrow keys move the cursor.
+- Holding `Shift` while moving extends the selection.
+- Mouse clicks move the cursor.
+- Mouse dragging selects text.
+
+For batch replacement or formatting-code insertion, select the text first and then type or paste the replacement.
+
 ---
 
 ## Adding New Tags
@@ -93,6 +105,8 @@ Each tag type is **color-coded** for easy identification:
    - **Values** (tag values)
    - **Types** (tag type names)
 4. Clear the search to restore the full tree.
+
+The search box also supports mouse focus, Chinese input and normal cursor movement. 1.2.4 fixes cases where search fields could not receive input again after losing focus on some Minecraft versions.
 
 ---
 

@@ -6,7 +6,7 @@ Simple Mode is a visual editor designed for users who want to edit items without
 
 ## Layout
 
-- **Left sidebar** — Category navigation (General, Enchantments, Lore, Attributes, Visual, Tools)
+- **Left sidebar** — Category navigation (General, Potions, Enchantments, Lore, Attributes, Visual, Tools)
 - **Right panel** — Property list for the selected category
 - **Header** — Item name, mode toggle (Simple / Advanced), save button
 - **Footer** — Status messages
@@ -32,6 +32,28 @@ Edit basic item properties:
 | **Saturation** | Food saturation value (food items only) |
 | **Rarity** | Item rarity level (Common, Uncommon, Rare, Epic) |
 
+### Potions
+
+When the edited item is a potion, splash potion, lingering potion or tipped arrow, Simple Mode shows a dedicated potion editor.
+
+| Field | Description |
+|------|-------------|
+| **Potion Type** | Switch between normal potion, splash potion, lingering potion and tipped arrow |
+| **Base Potion** | Choose a vanilla base potion |
+| **Potion Color** | Set the color used by the bottle, tipped arrow and tooltip |
+| **Custom Effects** | Add extra effects and configure each one independently |
+
+Adding potion effects supports multi-select. After adding effects, select one from the selected list and configure:
+
+- **Duration**: effect length in game ticks. 20 ticks equals 1 second.
+- **Amplifier**: effect strength. Minecraft stores this starting at 0.
+- **Ambient**: marks the effect as ambient, usually for softer display.
+- **Particles**: controls whether particles are shown.
+- **Icon**: controls whether the status icon is shown.
+
+!!! tip
+    To make a potion with multiple effects, select all needed effects first, then choose each added effect and adjust its values.
+
 ### Enchantments
 
 Manage item enchantments:
@@ -39,11 +61,11 @@ Manage item enchantments:
 - **View** all current enchantments and their levels
 - **Edit** enchantment levels by clicking the level value
 - **Add** new enchantments from a searchable list (supports both English and Chinese search)
-- **Remove** individual enchantments
+- **Remove** individual enchantments with the `X` button on each added row
 - **Clear All** — remove all enchantments at once
 
 !!! info
-    The enchantment list includes all vanilla enchantments. You can type in the search box to filter by name.
+    The enchantment list includes all vanilla enchantments. Chinese language shows translated names with namespaces, English language shows English names. Search can match translated names, English names or namespaces.
 
 ### Lore
 
@@ -87,7 +109,8 @@ Add and manage attribute modifiers:
 - **Three operations**: Add, Multiply Base, Multiply Total
 - **Slot selection**: choose which equipment slot the modifier applies to (Any, Main Hand, Off Hand, Head, Chest, Legs, Feet)
 - **Edit** existing modifier values
-- **Remove** individual modifiers
+- **Remove** individual modifiers with the `X` button on each added row
+- **Notes toggle**: attribute notes are off by default and can be enabled in config
 
 ### Visual
 
@@ -120,6 +143,16 @@ Utility functions:
 - Each export can have an **alias** (friendly name) for easy identification.
 - The import screen lists all available `.nbt` files with their alias, size, and modification date.
 
+### Villager Trades And Item Picker
+
+The villager trade editor is not inside the item category sidebar, but it uses the same visual editing style.
+
+- Look at a villager or hold a villager spawn egg to open the villager trade editor.
+- Add, remove and switch between trades.
+- Edit buy item, second buy item, sell item, counts, max uses, XP and price multiplier.
+- Trade item selection opens the item picker, which can search by item name or namespace.
+- The main-hand item can be used to fill trade item fields quickly.
+
 ---
 
 ## Tips
@@ -127,3 +160,4 @@ Utility functions:
 - Click any editable field to modify its value.
 - Changes are not applied until you press `Ctrl+S` (Creative Mode only).
 - Switch to Advanced Mode at any time using the toggle in the header.
+- Text fields support `Ctrl+A`, arrow keys, `Shift` selection and mouse drag selection. Select text first, then use the palette to wrap it with color codes.
