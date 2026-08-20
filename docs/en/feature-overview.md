@@ -88,4 +88,4 @@ Potion items use a dedicated potion editor:
 - Minecraft 1.21 through 1.21.11
 - Minecraft 26.1, 26.1.1, 26.1.2 and 26.2
 
-Use Java 21 for the 1.21 line and Java 25 for the 26.x line. Fabric builds require Fabric API. The updated 2.0.0 release contains 32 dedicated jars.
+Use Java 21 for the 1.21 line and Java 25 for the 26.x line. Fabric builds require Fabric API. The 2.0.0 stable release contains 32 dedicated jars.

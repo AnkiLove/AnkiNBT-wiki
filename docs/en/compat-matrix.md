@@ -1,6 +1,6 @@
 # Compatibility Matrix
 
-Current latest release: **2.0.0 updated build**
+Current latest release: **2.0.0 stable release**
 
 ## NeoForge
 
@@ -32,4 +32,4 @@ When downloading, match the Minecraft version after `mc` first, then match the l
 
 If your launcher supports per-instance Java settings, configure Java per Minecraft version so the 26.x line does not launch with Java 21 by mistake.
 
-The updated 2.0.0 build was verified in 64 real-client combinations across Fabric, NeoForge, 16 Minecraft versions and both supported languages.
+The 2.0.0 stable release was verified in 64 real-client combinations across Fabric, NeoForge, 16 Minecraft versions and both supported languages.

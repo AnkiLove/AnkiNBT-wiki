@@ -1,6 +1,6 @@
 # AnkiNBT 2.0.0 Changelog
 
-2.0.0 is a major update. This updated build replaces the earlier 2.0.0 artifacts, adds Minecraft 1.21 and completes real-client validation for every supported Fabric and NeoForge target.
+2.0.0 is the major stable release of AnkiNBT. Its primary change is a systematic redesign of the interface structure, editing workflows and interaction model. This release also replaces the earlier 2.0.0 artifacts, adds Minecraft 1.21 and completes real-client validation for every supported Fabric and NeoForge target.
 
 ## Rebuilt Editors
 
