@@ -106,7 +106,7 @@ For batch replacement or formatting-code insertion, select the text first and th
    - **Types** (tag type names)
 4. Clear the search to restore the full tree.
 
-The search box also supports mouse focus, Chinese input and normal cursor movement. 1.2.4 fixes cases where search fields could not receive input again after losing focus on some Minecraft versions.
+The search box also supports mouse focus, Chinese input and normal cursor movement. Version 2.0.0 further unifies focus and IME handling across Minecraft versions.
 
 ---
 

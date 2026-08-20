@@ -50,9 +50,9 @@
 
 ### Q: Which Minecraft versions are supported?
 
-**A:** AnkiNBT supports Minecraft **1.21 through 1.21.11**, plus **26.1, 26.1.1, and 26.1.2** on both NeoForge and Fabric. Each version has a dedicated build.
+**A:** AnkiNBT 2.0.0 supports Minecraft **1.21 through 1.21.11**, plus **26.1, 26.1.1, 26.1.2 and 26.2** on both NeoForge and Fabric. Each version has a dedicated build, for 32 jars in total.
 
-Minecraft 1.21 builds use Java 21. Minecraft 26.1 builds use Java 25.
+Minecraft 1.21 builds use Java 21. Minecraft 26.x builds use Java 25.
 
 ---
 

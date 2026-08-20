@@ -5,7 +5,7 @@
 | Target | Java |
 |---|---|
 | Minecraft 1.21 through 1.21.11 | Java 21 |
-| Minecraft 26.1 through 26.1.2 | Java 25 |
+| Minecraft 26.1 through 26.2 | Java 25 |
 
 The Windows build environment in this repository uses:
 
@@ -22,10 +22,10 @@ The Windows build environment in this repository uses:
 For versioned builds, enter the matching directory first:
 
 ```powershell
-cd versions\26.1.2
+cd versions\26.2
 .\gradlew.bat clean build --no-daemon
 ```
 
 ## Output
 
-Build artifacts are written to `build/libs` inside each version directory. Release-ready jars are collected under `output`.
+Build artifacts are written to `build/libs` inside each version directory. NeoForge targets live under `versions`, Fabric targets under `fabric-versions`, while Fabric 1.21.1 uses the root `fabric` directory. Normal builds are not encrypted or obfuscated.

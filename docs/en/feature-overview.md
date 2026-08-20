@@ -1,6 +1,6 @@
 # Feature Overview
 
-AnkiNBT 1.2.4 focuses on item editing, potion editing, villager trades, text editing and cross-version compatibility. This page is written for players who want to know what the mod can do before opening the NBT tree.
+AnkiNBT 2.0.0 is a major update that rebuilds the item, entity and villager trade editors and revalidates every supported Fabric and NeoForge target. This page is written for players who want to know what the mod can do before opening the NBT tree.
 
 ## Two Editing Modes
 
@@ -20,7 +20,7 @@ You can switch modes from the editor header. Changes are not written back immedi
 
 ## Lore And Text Editing
 
-The 1.2.4 text editor behaves more like a normal editor:
+The 2.0.0 text editor behaves more like a normal editor:
 
 - `Ctrl+A` selects all text.
 - Arrow keys move the cursor.
@@ -61,13 +61,16 @@ Potion items use a dedicated potion editor:
 ## Item Picker And Villager Trades
 
 - The item picker searches by item name and namespace.
-- The villager trade editor can edit buy item, second buy item, sell item, counts, max uses, XP and price multiplier.
+- The villager trade editor can add, copy, move, delete and undo trades.
+- It can edit buy item, second buy item, sell item, counts, max uses, XP, price multiplier, demand and special price.
 - Trade item selection uses the same searchable picker.
-- It can edit existing villagers or write trade data into villager spawn eggs.
+- It can edit existing villagers or write trade data into villager spawn eggs, including profession, level and villager type.
 
 ## Entities And Config
 
-- The entity editor targets the entity you are looking at or an item that can store entity data.
+- The entity editor targets a live entity you are looking at or a spawn egg that can store entity data.
+- It edits name, health, silent, glowing, no-gravity, invulnerable and custom-name visibility, with undo and restore actions.
+- Live entity and villager saves are synchronized through the integrated server and read back for verification.
 - The config menu controls default mode, opacity, theme color, attribute notes, export directory and key binds.
 - Theme color is applied across main buttons, selected rows, borders and sub-editors.
 
@@ -76,13 +79,13 @@ Potion items use a dedicated potion editor:
 - Exported files are saved to `.minecraft/ankinbt-config/save-nbt/` by default.
 - Files can be organized by category and given aliases.
 - The import screen shows file name, alias, size and modification time.
-- 1.2.4 fixes duplicate external file picker windows on some import entry points.
+- 2.0.0 keeps categories, aliases and file metadata while fixing duplicate file picker windows.
 
 ## Compatibility
 
-1.2.4 covers Fabric and NeoForge:
+2.0.0 covers Fabric and NeoForge:
 
 - Minecraft 1.21 through 1.21.11
-- Minecraft 26.1, 26.1.1 and 26.1.2
+- Minecraft 26.1, 26.1.1, 26.1.2 and 26.2
 
-Use Java 21 for the 1.21 line and Java 25 for the 26.1 line. Fabric builds require Fabric API.
+Use Java 21 for the 1.21 line and Java 25 for the 26.x line. Fabric builds require Fabric API. The updated 2.0.0 release contains 32 dedicated jars.

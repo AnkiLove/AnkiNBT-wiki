@@ -6,23 +6,25 @@ AnkiNBT is a client-side editor for item data, entity data and Minecraft data co
 
 | Loader | Download file | Java |
 |---|---|---|
-| Fabric | `AnkiNBT-Fabric-mcVersion-1.2.4.jar` | Java 21 for the 1.21 line, Java 25 for the 26.1 line |
-| NeoForge | `AnkiNBT-NeoForge-mcVersion-1.2.4.jar` | Java 21 for the 1.21 line, Java 25 for the 26.1 line |
+| Fabric | `AnkiNBT-Fabric-mcVersion-2.0.0.jar` | Java 21 for the 1.21 line, Java 25 for the 26.x line |
+| NeoForge | `AnkiNBT-NeoForge-mcVersion-2.0.0.jar` | Java 21 for the 1.21 line, Java 25 for the 26.x line |
 
 Fabric builds also require Fabric API. When downloading, match `Fabric` or `NeoForge` first, then match the Minecraft version after `mc`.
 
 [Installation](installation-guide.md){ .md-button .md-button--primary }
 [Compatibility Matrix](compat-matrix.md){ .md-button }
 
-## What 1.2.4 Includes
+## The 2.0.0 Major Update
 
-- Fabric and NeoForge builds for Minecraft 1.21 through 1.21.11, plus 26.1, 26.1.1 and 26.1.2.
-- Simple Mode for general fields, enchantments, lore, attributes, appearance, potion effects and NBT import/export.
+- Fabric and NeoForge builds for Minecraft 1.21 through 1.21.11, plus 26.1, 26.1.1, 26.1.2 and 26.2: 32 jars in total.
+- A rebuilt item editor for general fields, enchantments, lore, attributes, appearance, potion effects and NBT import/export.
+- A rebuilt entity editor for spawn eggs and live entities, including health, state flags, undo and server readback.
+- A rebuilt villager trade editor with add, copy, move, delete, two buy items, sell items and complete trade fields.
 - Advanced Mode for NBT tree search, add, delete, edit, expand, collapse and type validation.
 - Name and lore editing with `Ctrl+A`, arrow keys, `Shift` selection, mouse drag selection and coloring selected text.
 - Potion editing with base potion, custom color, multi-select effects and per-effect duration, amplifier, particles and icon settings.
 - Localized enchantment and attribute names, search, notes and single-item removal.
-- Villager trade editing with searchable item picking, buy/sell items, max uses, XP and price multiplier.
+- Fixes for missing-glyph icon boxes, duplicate `minecraft:lunge` entries and low-version Fabric background flicker.
 - NBT import/export with categories, aliases and a configurable output directory.
 
 [Feature Overview](feature-overview.md){ .md-button .md-button--primary }
@@ -60,7 +62,7 @@ If no held or hovered item is found, AnkiNBT shows a message instead of opening 
 | Install or update | [Installation](installation-guide.md) |
 | Check supported versions | [Compatibility Matrix](compat-matrix.md) |
 | Check shortcuts | [Shortcuts](keyboard-shortcuts.md) |
-| Read what changed in 1.2.4 | [Changelog 1.2.4](changelog-1.2.4.md) |
+| Read what changed in 2.0.0 | [Changelog 2.0.0](changelog-2.0.0.md) |
 
 ## Configuration
 

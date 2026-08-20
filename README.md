@@ -1,6 +1,6 @@
 # AnkiNBT Wiki
 
-这是 AnkiNBT 的独立文档站项目，使用 Material for MkDocs 构建，并通过 GitHub Pages 发布。
+这是 AnkiNBT 的独立中英文文档站项目，使用 Material for MkDocs 构建，并通过 GitHub Pages 发布。当前文档对应 AnkiNBT 2.0.0 更新版。
 
 ## 本地预览
 

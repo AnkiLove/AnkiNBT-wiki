@@ -6,23 +6,25 @@ AnkiNBT 是一个客户端物品、实体和数据组件编辑器。先选对版
 
 | 你使用的加载器 | 下载文件 | Java |
 |---|---|---|
-| Fabric | `AnkiNBT-Fabric-mc版本-1.2.4.jar` | 1.21 系列用 Java 21，26.1 系列用 Java 25 |
-| NeoForge | `AnkiNBT-NeoForge-mc版本-1.2.4.jar` | 1.21 系列用 Java 21，26.1 系列用 Java 25 |
+| Fabric | `AnkiNBT-Fabric-mc版本-2.0.0.jar` | 1.21 系列用 Java 21，26.x 系列用 Java 25 |
+| NeoForge | `AnkiNBT-NeoForge-mc版本-2.0.0.jar` | 1.21 系列用 Java 21，26.x 系列用 Java 25 |
 
 Fabric 版本需要同时安装 Fabric API。下载时优先看文件名里的 `Fabric` 或 `NeoForge`，再看 `mc` 后面的 Minecraft 版本。
 
 [安装指南](installation-guide.md){ .md-button .md-button--primary }
 [兼容矩阵](compat-matrix.md){ .md-button }
 
-## 1.2.4 重点功能
+## 2.0.0 重大更新
 
-- 覆盖 Fabric 和 NeoForge 的 Minecraft 1.21 到 1.21.11，以及 26.1、26.1.1、26.1.2。
-- 简易模式支持物品基础属性、附魔、Lore、属性修饰、外观、药水效果和 NBT 导入导出。
+- 覆盖 Fabric 和 NeoForge 的 Minecraft 1.21 到 1.21.11，以及 26.1、26.1.1、26.1.2、26.2，共 32 个 JAR。
+- 重制物品编辑器，支持基础属性、附魔、Lore、属性修饰、外观、药水效果和 NBT 导入导出。
+- 重制实体编辑器，支持刷怪蛋和真实实体的名称、生命值、状态、撤销与服务端回读。
+- 重制村民交易编辑器，支持交易新增、复制、移动、删除、两项买入、卖出和全部交易参数。
 - 高级模式支持 NBT 树搜索、添加、删除、编辑、展开折叠和类型校验。
 - Lore 与名称编辑支持 `Ctrl+A`、方向键、`Shift` 选择、鼠标拖选和选中文本上色。
 - 药水编辑支持基础药水、自定义颜色、多选效果，以及每个效果独立设置时长、等级、粒子和图标。
 - 附魔和属性修饰支持本地化名称、搜索、说明和单项删除。
-- 村民交易编辑器支持可搜索物品选择、买入/卖出项、最大交易次数、经验和价格倍率。
+- 修复图标缺字方格、重复 `minecraft:lunge` 和低版本 Fabric 实体/交易编辑器背景闪烁。
 - NBT 导入导出支持分类、别名和自定义保存目录。
 
 [功能总览](feature-overview.md){ .md-button .md-button--primary }
@@ -60,7 +62,7 @@ Fabric 版本需要同时安装 Fabric API。下载时优先看文件名里的 `
 | 安装或更新 | [安装指南](installation-guide.md) |
 | 查版本支持 | [兼容矩阵](compat-matrix.md) |
 | 查快捷键 | [快捷键](keyboard-shortcuts.md) |
-| 看 1.2.4 改了什么 | [更新记录 1.2.4](changelog-1.2.4.md) |
+| 看 2.0.0 改了什么 | [更新记录 2.0.0](changelog-2.0.0.md) |
 
 ## 配置文件
 

@@ -1,13 +1,13 @@
 # Simple Mode
 
-Simple Mode is a visual editor designed for users who want to edit items without any NBT knowledge. It features a category sidebar on the left and a property list on the right.
+Simple Mode is a visual editor designed for users who want to edit items without any NBT knowledge. Version 2.0.0 uses top category tabs and a scrollable property panel, with independent width, height and overall scale controls.
 
 ---
 
 ## Layout
 
-- **Left sidebar** — Category navigation (General, Potions, Enchantments, Lore, Attributes, Visual, Tools)
-- **Right panel** — Property list for the selected category
+- **Top tabs** — Category navigation (General, Potions, Enchantments, Lore, Attributes, Visual, Tools)
+- **Content panel** — Property list for the selected category
 - **Header** — Item name, mode toggle (Simple / Advanced), save button
 - **Footer** — Status messages
 
@@ -148,8 +148,9 @@ Utility functions:
 The villager trade editor is not inside the item category sidebar, but it uses the same visual editing style.
 
 - Look at a villager or hold a villager spawn egg to open the villager trade editor.
-- Add, remove and switch between trades.
-- Edit buy item, second buy item, sell item, counts, max uses, XP and price multiplier.
+- Add, copy, move, remove, switch and undo trades.
+- Edit buy item, second buy item, sell item, counts, max uses, XP, price multiplier, demand and special price.
+- Edit villager profession, level and type, then save the live offers.
 - Trade item selection opens the item picker, which can search by item name or namespace.
 - The main-hand item can be used to fill trade item fields quickly.
 

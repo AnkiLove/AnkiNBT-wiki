@@ -2,9 +2,9 @@
 
 ## Prerequisites
 
-- **Minecraft** 1.21 ~ 1.21.11, 26.1 ~ 26.1.2
+- **Minecraft** 1.21 ~ 1.21.11, 26.1 ~ 26.2
 - **Java 21** for Minecraft 1.21 builds
-- **Java 25** for Minecraft 26.1 builds
+- **Java 25** for Minecraft 26.x builds
 - **NeoForge** or **Fabric** (+ Fabric API) installed for your MC version
 
 ---
@@ -13,7 +13,7 @@
 
 1. Download and install [NeoForge](https://neoforged.net/) for your Minecraft version.
 2. Download the **AnkiNBT NeoForge** JAR from [Modrinth](https://modrinth.com/mod/ankinbt) or [GitHub Releases](https://github.com/AnkiLove/AnkiNBT/releases).
-   - Make sure to pick the correct JAR for your Minecraft version (e.g., `AnkiNBT-NeoForge-mc1.21.1-1.2.4.jar`).
+   - Make sure to pick the correct JAR for your Minecraft version (e.g., `AnkiNBT-NeoForge-mc1.21.1-2.0.0.jar`).
 3. Place the JAR file into your `.minecraft/mods/` folder.
 4. Launch Minecraft with the NeoForge profile.
 
@@ -24,7 +24,7 @@
 1. Download and install [Fabric Loader](https://fabricmc.net/) for your Minecraft version.
 2. Download and install [Fabric API](https://modrinth.com/mod/fabric-api) — this is **required** for AnkiNBT on Fabric.
 3. Download the **AnkiNBT Fabric** JAR from [Modrinth](https://modrinth.com/mod/ankinbt) or [GitHub Releases](https://github.com/AnkiLove/AnkiNBT/releases).
-   - Make sure to pick the correct JAR for your Minecraft version (e.g., `AnkiNBT-Fabric-mc1.21.1-1.2.4.jar`).
+   - Make sure to pick the correct JAR for your Minecraft version (e.g., `AnkiNBT-Fabric-mc1.21.1-2.0.0.jar`).
 4. Place both the Fabric API JAR and the AnkiNBT JAR into your `.minecraft/mods/` folder.
 5. Launch Minecraft with the Fabric profile.
 
@@ -49,6 +49,7 @@
 | 26.1      | Yes      | Yes                  |
 | 26.1.1    | Yes      | Yes                  |
 | 26.1.2    | Yes      | Yes                  |
+| 26.2      | Yes      | Yes                  |
 
 ---
 
@@ -61,7 +62,7 @@ After launching the game:
 3. If nothing happens, check that:
    - You have the correct mod version for your Minecraft version.
    - On Fabric, Fabric API is also installed.
-   - You are using Java 21 for Minecraft 1.21, or Java 25 for Minecraft 26.1.
+   - You are using Java 21 for Minecraft 1.21, or Java 25 for Minecraft 26.x.
 
 ---
 
